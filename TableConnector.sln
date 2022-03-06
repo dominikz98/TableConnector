@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableConnector", "src\TableConnector\TableConnector.csproj", "{DDD3D868-CAD1-4BA9-B207-E6BB11361B27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D6CFE3A5-80A0-4C83-9270-81A387238892}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1F40D441-CE2A-4DC8-B69F-65DE6E5D0009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableConnector.Tests", "tests\TableConnector.Tests\TableConnector.Tests.csproj", "{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C4999CA4-13CC-41BE-9A71-C30B32946F31}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD3D868-CAD1-4BA9-B207-E6BB11361B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD3D868-CAD1-4BA9-B207-E6BB11361B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD3D868-CAD1-4BA9-B207-E6BB11361B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD3D868-CAD1-4BA9-B207-E6BB11361B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDD3D868-CAD1-4BA9-B207-E6BB11361B27} = {D6CFE3A5-80A0-4C83-9270-81A387238892}
+		{655C5A46-3AE6-4FAD-9BB3-90E0BC0272DE} = {1F40D441-CE2A-4DC8-B69F-65DE6E5D0009}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE2A6DA-0EEF-45C8-AD4F-2E73A38E40EC}
+	EndGlobalSection
+EndGlobal
